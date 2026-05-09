@@ -485,11 +485,6 @@ Connects to real-time event stream
 
 ---
 
-## 📜 License
-
-This project is designed for educational and research purposes.
-
----
 
 ## 👨‍💻 Development Notes
 

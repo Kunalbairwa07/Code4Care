@@ -417,9 +417,18 @@ export default function HomePage() {
       </section>
 
       {/* FOOTER */}
-      <footer style={{ padding: "24px 40px", background: "#1A2332", color: "#546E7A", textAlign: "center", fontSize: 13 }}>
-        © 2024 HISS — Hospital Infection Surveillance System · Secure Healthcare Technology
-      </footer>
+      <footer
+  style={{
+    padding: "24px 40px",
+    background: "#1A2332",
+    color: "#546E7A",
+    textAlign: "center",
+    fontSize: 13,
+  }}
+>
+  © {new Date().getFullYear()} HISS — Hospital Infection Surveillance
+  System · Secure Healthcare Technology
+</footer>>
 
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
